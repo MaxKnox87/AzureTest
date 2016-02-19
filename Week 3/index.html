@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Grow.com</title>
+    <meta name="description" content="Index page for grow website"/>
+
+    <link rel="stylesheet" href="normalise.css" type="text/css" media="all">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="site">
+<header>
+    <div class="mixed-menus">
+        <nav class="leftmenu">
+            <ul>
+                <li><a id="homebtn" title="Home" href="index.html"><h1>Home</h1></a></li>
+                <li><a id="growbtn" title="Grow" href="grow.html"><h1>Grow</h1></a></li>
+                <li><a id="newsbtn" title="News" href="news.html"><h1>News</h1></a></li>
+                <li><a id="kidsbtn" title="Kids" href="kids.html"><h1>Kids</h1></a></li>
+            </ul>
+        </nav><!-- end left menu -->
+        <nav class="rightmenu">
+            <ul>
+                <li><a id="loginbtn" title="Login/Signup" href="login.html"><h2>Hi! BobRoss123</h2></a></li>
+                <li><form><a href="search.html"><input class="searchbox" type="text" placeholder="Search..."><input class="searchbtn" type="button" value="Go!"></a></form></li>
+            </ul>
+        </nav><!-- end right menu -->
+    </div><!-- end of mixed menus div -->
+
+</header>
+
+<div class="main">
+    <div class="twocoltitle">
+        <h1>BobRoss123</h1><h2>Upload your content here!</h2>
+    </div>
+    <div class="main-2cols">
+        <div class="main-left">
+            <div class="uploadbox">
+                <p id="uptext">Drag your image or video in here or click "browse" below!</p>
+            </div>
+            <input class="loginbtn" type="submit" value="Browse...">
+
+        </div><!-- end of content section 1 -->
+
+        <div class="main-right">
+            <h3>Upload Information</h3>
+            <br>
+            <form class="uploadform" name="upload" action="index_submit" method="get" accept-charset="utf-8">
+                <ul>
+                    <li><label class="upform" for="usermail">Title:</label>
+                        <input class="searchbox" type="text"  placeholder="Title" required>
+                    </li>
+                    <br>
+                    <li><label class="upform"for="usermail">Category:</label>
+                        <select class="searchdown" name="media type">
+                            <option value="Video">Video</option>
+                            <option value="Article">Article</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li><label class="upform"for="username">Variety:</label>
+                        <input class="searchbox" type="text"  placeholder="The type of fruit or veg" required>
+                    </li>
+                    <br>
+                    <li><label class="upform"for="password">Skill level:</label>
+                        <select class="searchdown" name="media type">
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Expert">Expert</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li><label class="upform"for="location">Area:</label>
+                        <input class="searchbox" type="text"  placeholder="Can be specific to your location or anywhere" required>
+                    </li>
+                    <br>
+                    <li><label class="upform"for="Description">Description:</label>
+                        <input class="textbox" type="text"  placeholder="Give your post a description" required>
+                    </li>
+                    <br>
+                    <li>
+                        <input class="loginbtn" type="submit" value="Upload!">
+                    </li>
+                </ul>
+            </form>
+
+        </div><!-- end of content section 2 -->
+    </div><!-- end of main-2cols div-->
+</div><!-- end of main content section div -->
+
+<footer>
+    <div class="contentfooter">
+        <div class="leftfooter">
+            <div class="leftfooter-content">
+                <h3>&copy; Copyright Maxwell Knox 2015</h3>
+                <a title="privacy policy" href="#"><h3>Privacy Policy</h3></a>
+                <a title="Terms of Service" href="#"><h3>Terms of Service</h3></a>
+            </div>
+        </div><!-- end of left footer-->
+
+        <div class="rightfooter">
+            <div class="rightfooter-content">
+                <div class="social"><a href="Facebook" href="http://facebook.com"><img class="socialicon" src="icons/blue-purple/facebook.png"/></a></div>
+                <div class="social"><a href="Twitter" href="http://twitter.com"><img class="socialicon" src="icons/blue-purple/twitter.png"/></a></div>
+            </div>
+        </div><!-- end of right footer -->
+    </div>
+
+</footer>
+</body>
+</html>
